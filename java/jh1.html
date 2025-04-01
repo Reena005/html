@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         let user=prompt("What is your name?");
+         alert(`WELCOME TO OUR HOTEL,${user}`);  
+         let numb=prompt("How many coffess do you need?");
+         let price=prompt("How much does one coffee costs?");
+         let cost;
+          cost=numb*price;
+          let discount=0.10;
+          let damount=cost*0.10;
+          let total;
+          if(numb>5)
+          {
+                 total=cost-damount;
+                 alert(`The total cost after discount is ${total}`);
+          }
+          else
+          {
+                   alert(`total cost is ${cost}`);
+          }
+
+
+
+    </script>
+</head>
+</html>
